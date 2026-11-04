@@ -1,0 +1,32 @@
+# Local credentials and environment configuration
+**/.env
+**/.env.*
+!**/.env.example
+**/local.properties
+
+# Dependencies and generated build output
+**/node_modules/
+**/.dart_tool/
+**/build/
+**/coverage/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+**/ephemeral/
+
+# Local databases, uploads, and signing credentials
+backend/data/
+backend/uploads/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.jks
+*.keystore
+
+# Editor and operating-system files
+**/.idea/
+**/.vscode/
+.DS_Store
+Thumbs.db

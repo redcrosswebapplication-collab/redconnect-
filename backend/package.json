@@ -1,0 +1,15 @@
+{
+  "name": "redcross-connect-api",
+  "version": "1.0.0",
+  "description": "REST API for RedCross Connect+ backed by Supabase",
+  "main": "src/server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  }
+}
